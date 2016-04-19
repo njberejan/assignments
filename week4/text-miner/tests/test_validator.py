@@ -135,11 +135,11 @@ def test_date():
     assert not v.date("2015")
 
 
-## HARD MODE BEGINS
+## ADVANCED MODE BEGINS
 
 
 @xfail
-def test_hard_date():
+def test_advanced_date():
     assert v.date("2014 Jan 01")
     assert v.date("2014 January 01")
     assert v.date("Jan. 1, 2015")

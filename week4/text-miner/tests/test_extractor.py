@@ -22,7 +22,7 @@ You can contact me at (919) 123-4569 at your convenience."""
 
     assert x.phone_numbers(text) == ["(454) 999-1212", "(919) 123-4569"]
 
-## HARD MODE BEGINS
+## ADVANCED MODE BEGINS
 
 @xfail
 def test_emails():

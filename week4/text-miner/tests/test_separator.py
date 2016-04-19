@@ -86,7 +86,7 @@ def test_date(input, expected):
     assert s.date(input) == expected
 
 
-## HARD MODE BEGINS
+## ADVANCED MODE BEGINS
 
 @xfail
 @params("input,expected", [
@@ -109,7 +109,7 @@ def test_date(input, expected):
     ("07/40/2015", None),
     ("02/30/2015", None),
 ])
-def test_hard_date(input, expected):
+def test_advanced_date(input, expected):
     assert s.date(input) == expected
 
 
